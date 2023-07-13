@@ -16,8 +16,9 @@ async def start_background_tasks(app):
 
 
 async def cleanup_background_tasks(app):
+    print("leanup_background_tasks")
     # Stop the cron job when the application is shutting down
-    app["my_cron_job"].stop()
+    # app["my_cron_job"].stop()
 
 
 async def handle(request):
