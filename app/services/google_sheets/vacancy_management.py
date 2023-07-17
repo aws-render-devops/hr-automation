@@ -10,6 +10,13 @@ def create():
         .execute()
     )
     sheet_id = sheet.get("spreadsheetId")
+    print(
+        "===============SHHEETT ID: ===============SHHEETT ID: ===============SHHEETT ID: "
+    )
+    print(sheet_id)
+    print(
+        "===============SHHEETT ID: ===============SHHEETT ID: ===============SHHEETT ID: "
+    )
     print("Spreadsheet ID: {0}".format(sheet_id))
     permission1 = {
         "type": "user",
